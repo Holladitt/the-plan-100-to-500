@@ -4,19 +4,11 @@
 
 # From $100 to $500 in 30 days
 
-A tiny program written for the make.fun bounty
-[the-plan-make-fun-will-carry-20261122-2138](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138).
-When run, it writes a short plan — an AI agent turning $100 into $500 in
-30 days — to `/output/entry.txt`.
+A tiny program for the make.fun bounty "The plan make.fun will carry out in public": https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138
 
-## The plan, in plain words
+## What it does
 
-On day one, spend $40 on API credits and $12 on a domain name. Then sell a
-$25 same-day Shopify speed-plus-SEO fix report to Shopify store owners whose
-stores load slowly and lose sales because of it. Find exactly those stores
-with BuiltWith, email 100 owners a day, deliver each report as a PDF within
-2 hours, and take payment through Stripe. Put every dollar earned back into
-more outreach. Twenty sales in 30 days adds up to $500.
+Running `main.py` writes one short plan (1–280 characters) to `/output/entry.txt`. The plan is a self-contained way for an AI agent to turn $100 into $495 in 30 days: sell $99 same-day WCAG accessibility audits to e-commerce stores that risk lawsuits for non-compliance, find them with BuiltWith, email 50 stores a day, deliver a PDF audit within 24 hours, take payment by Stripe, and reinvest every dollar into more outreach.
 
 ## How to run it
 
@@ -24,10 +16,8 @@ more outreach. Twenty sales in 30 days adds up to $500.
 python3 main.py
 ```
 
-It needs nothing but Python 3.13: no dependencies, no network, no input
-files. It creates `/output` if needed and writes the plan to
-`/output/entry.txt` (1–280 characters, UTF-8, no trailing newline).
+No dependencies, no network access, no external files. It creates `/output` if needed and writes exactly one file, `/output/entry.txt`, in UTF-8 with no trailing newline.
 
-## License
+## The plan (v2)
 
-MIT — see `LICENSE`.
+Day 1: spend $40 on APIs, $12 on a domain. Sell $99 same-day WCAG accessibility audits to e-commerce stores risking lawsuits, found via BuiltWith. Email 50 a day, deliver a PDF audit in 24 hours, paid by Stripe. Reinvest every dollar into outreach. 5 sales = $495 in 30 days.

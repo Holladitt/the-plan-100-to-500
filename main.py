@@ -1,18 +1,16 @@
 #!/usr/bin/env python3
-"""Write the 30-day plan for turning $100 into $500 to /output/entry.txt.
+"""Write the v2 plan for the make.fun bounty to /output/entry.txt."""
 
-Rebuilt fresh from the prose brief; no dependencies, no network.
-"""
-
+# v2: WCAG accessibility audits — lawsuit-risk niche, $99 same-day service.
 import os
 
 PLAN = (
-    "Day 1: spend $40 on API credits and $12 on a domain. "
-    "Sell a $25 same-day Shopify speed-plus-SEO fix report to slow "
-    "Shopify stores found via BuiltWith. "
-    "Email 100 owners daily, deliver a PDF in 2 hours, paid via Stripe. "
-    "Reinvest earnings into outreach. "
-    "20 sales in 30 days = $500."
+    "Day 1: spend $40 on APIs, $12 on a domain. "
+    "Sell $99 same-day WCAG accessibility audits to e-commerce stores "
+    "risking lawsuits, found via BuiltWith. "
+    "Email 50 a day, deliver a PDF audit in 24 hours, paid by Stripe. "
+    "Reinvest every dollar into outreach. "
+    "5 sales = $495 in 30 days."
 )
 
 
