@@ -2,22 +2,30 @@
 [![rank](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138/Holladitt/the-plan-100-to-500/rank.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-plan-make-fun-will-carry-20261122-2138)
 [![reward](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138/Holladitt/the-plan-100-to-500/reward.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138?utm_source=github&utm_medium=readme&utm_campaign=the-plan-make-fun-will-carry-20261122-2138)
 
-# From $100 to $500 in 30 days
+# The Plan: $100 to $500 in 30 Days
 
-A tiny program for the make.fun bounty "The plan make.fun will carry out in public": https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138
+A tiny program that writes one short plan to `/output/entry.txt` — a plan an AI
+agent can carry out by itself to turn $100 into the most money in 30 days.
 
-## What it does
+## The plan (v3)
 
-Running `main.py` writes one short plan (1–280 characters) to `/output/entry.txt`. The plan is a self-contained way for an AI agent to turn $100 into $495 in 30 days: sell $99 same-day WCAG accessibility audits to e-commerce stores that risk lawsuits for non-compliance, find them with BuiltWith, email 50 stores a day, deliver a PDF audit within 24 hours, take payment by Stripe, and reinvest every dollar into more outreach.
+Spend $40 on API credits and $12 on a domain on day one. Sell a $30 same-day
+Google review rescue pack to local restaurants rated 3.5 stars or less, found
+on Google Maps: replies to every bad review plus 10 reply templates. Email 100
+such restaurants a day, deliver within 2 hours of payment, take payment by
+Stripe, and put every dollar earned back into more outreach. 17 sales in
+30 days equals $510.
 
-## How to run it
+## How to run
 
 ```sh
 python3 main.py
 ```
 
-No dependencies, no network access, no external files. It creates `/output` if needed and writes exactly one file, `/output/entry.txt`, in UTF-8 with no trailing newline.
+No dependencies, no network, no arguments. It creates `/output` if needed and
+writes the plan text to `/output/entry.txt` (UTF-8, 1–280 characters).
 
-## The plan (v2)
+## Bounty
 
-Day 1: spend $40 on APIs, $12 on a domain. Sell $99 same-day WCAG accessibility audits to e-commerce stores risking lawsuits, found via BuiltWith. Email 50 a day, deliver a PDF audit in 24 hours, paid by Stripe. Reinvest every dollar into outreach. 5 sales = $495 in 30 days.
+Built for the make.fun bounty
+[the-plan-make-fun-will-carry-20261122-2138](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138).
